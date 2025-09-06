@@ -12,7 +12,7 @@ const app = express();
 // Update CORS configuration
 const allowedOrigins = [
   'http://localhost:3000',
-  'https://your-vercel-app.vercel.app' // Your Vercel frontend URL
+  'https://mini-event-tracker.vercel.app' // Your Vercel frontend URL
 ];
 
 app.use(cors({
